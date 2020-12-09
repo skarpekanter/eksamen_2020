@@ -113,6 +113,9 @@ position: absolute;
     width: 60%;
     text-align: center;
 }
+.forsideinfotekst {
+    margin-bottom: -50px;
+}
 .forsideimg {
       margin-top: 22px;
     opacity: 80%;
@@ -134,6 +137,7 @@ position: absolute;
     font-size: 20px;
 }
 .forsideknap {
+    margin-bottom: 30px;
     background-color: #c91335;
     width: 150px;
     border-style: none;
@@ -373,4 +377,8 @@ font-size: 0.8em;
     height: auto;
     width: 99%;
 }
+.kontakttekst {
+    padding: 9px;
+}
 /*KONTAKTFORMULAR STYLE SLUT*/
+
