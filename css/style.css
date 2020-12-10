@@ -125,6 +125,7 @@ position: absolute;
     border-color: #523125;
 }
 /*FORSIDE SIDE BANNER SLUT*/
+
 .komtekst {
     margin-top: 30px;
         font-family: 'ITC Kabel Std Medium';
@@ -149,7 +150,7 @@ position: absolute;
 /*FORSIDE CONTENT SLUT*/
 
 
-/*MAP & KOTANKT TEXT STYLE*/
+/*MAP & TEXT STYLE*/
 .flex-container {
     display: flex;
     text-align: center;
@@ -168,9 +169,12 @@ position: absolute;
     margin: 20px;
         border: 2px solid #326382;
 }
+.mapoverskrift {
+    text-align: center;
+}
+/*MAP & TEXT STYLE SLUT*/
 
-
-/*KONTAKTFORMULAR STYLE*/
+/*KONTAKT SIDE STYLE*/
 #contact {
 width: 80%;
 background: ;
@@ -309,7 +313,6 @@ box-shadow: inset 2px 2px 5px 0 #DADADA;
 outline: none;
 text-indent: 0;
 }
-
 .input_wrapper label {
 position: absolute;
 left: 0;
@@ -403,12 +406,44 @@ font-size: 0.8em;
 
 }
 /*KONTAKTFORMULAR STYLE SLUT*/
+
+
 .askus {
-        background-color: #c91335;
+    background-color: #c91335;
     width: 150px;
     border-style: none;
     padding: 10px;
     color: white;
     font-size: 15px;
     font-family: 'ITC Kabel Std Bold';
+}
+
+.red {
+    color: red;
+}
+.green
+{
+    color: green;
+}
+
+.bundknap {
+    text-align: center;
+}
+
+
+
+.produktcontainer {
+    text-align: center;
+}
+
+
+
+.tilbudimg {
+    border-radius: 4px;
+}
+
+.tilbud {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }

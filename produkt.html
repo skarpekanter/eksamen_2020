@@ -25,48 +25,21 @@
     <img src="img/logo.png" alt="max&clauslogo" class="biglogo" width="400" height="200">
 <!--TOP LOGO SLUT-->    
 
+<div class="produktcontainer">    
+<h1>Prisen afhænger af dig og dit næste projekt...</h1>
+    <p class="tilbud">Det kan være svært at give et endegyldigt svar på prisen for dit næste projekt. Vi har samlet vores aktuelle tilbud i vores ugeavis, som ses på denne side. Vi mener dog at tæpper skal ses, føles og testes inden du træffer et valg.<br><br> Derfor byder vi dig altid velkommen i vores butik.</p>
+<img class="tilbudimg" src="img/ugeavis.png" width="80%;">
+    <h2>Vi er altid klar til at hjælpe - og det er gratis at spørge</h2>
+</div>
 
 
-<div class="flex-container">
-
-  <div class="flex-child">
-    <h2>Prisen afhænger af dig og dit projekt</h2>
-      <p>Da vi har et stort udvalg af forskellige typer af gulve og tæpper kan det være svært at give et præcis svar på hvad prisen er, uden at have yderligere kendskab til projektesomfang og dit ønske om materiale.</p>
-      <p>Vores dygtige gulvmontere </p>
-
-  </div>
-  <div class="flex-child">
-      <img src="img/produktimg.jpg" width="100%">
-  </div>
-  
-</div> 
-    <div class="flex-container">
-
-  <div class="flex-child">
-    <img src="img/produktimg.jpg" width="100%">
-
-  </div>
-  <div class="flex-child">
-      <h2>Men det er gratis at spørge</h2>
-      <p>I vores åbningstider er vi altid klar til at hjælpe med rådvining eller sparing i forbindelse med dit næste renoveringsprojekt. Vi er gerne din næste samarbejdspartner, uanset om du før har handlet med os. </p>
-        
-<a href="kontakt.html">
-    <button class="askus">Spørg os</button>
-</a>
-      
+<div class="bundknap">         
+    <a href="kontakt.html">
+          <button class="askus">Kontakt Os</button>     
+        </a>
       <div id="field_name"></div>
-  </div>
-  
-</div> 
-<footer>
-    <p><img src="img/tlfikon.png" alt="telefonikon" width="14"> 55 99 50 50</p>
-  <p><img src="img/mailikon.png" alt="mailikon" width="20"><a href="mailto:#">kontakt@example.com</a></p>
-</footer>    
-
-  <!-- scripts -->
     <script>
-
-    var d = new Date();
+        var d = new Date();
     var n = d.getDay();
     var now = d.getHours() + "." + d.getMinutes();
     var weekdays = [
@@ -81,15 +54,17 @@
     var day = weekdays[n];
 
 
-    if (now > day[1] && now < day[2] || now > day[3] && now < day[4]) {
-        document.getElementById('field_name').innerHTML="<p>" + 'Vi har åben' + "<p>";
+    if (now > day[1] && now < day[2]) {
+        document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='green'>" + ' ' + 'åben' + "</em>" + "</p>";
     }
      else {
-         document.getElementById('field_name').innerHTML="<p>" + 'Vi har lukket' + "<p>";
+         document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='red'>" + ' ' + 'lukket' + "</em>" + "</p>";
     }
-
-
-</script>
-    
+        </script>
+</div>
+<footer>
+    <p><img src="img/tlfikon.png" alt="telefonikon" width="14"> 55 99 50 50</p>
+  <p><img src="img/mailikon.png" alt="mailikon" width="20"><a href="mailto:#">kontakt@example.com</a></p>
+</footer>      
 </body>
 </html>
