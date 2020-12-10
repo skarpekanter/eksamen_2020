@@ -153,6 +153,8 @@ position: absolute;
 .flex-container {
     display: flex;
     text-align: center;
+    padding: 10px;
+    height: 500px;
 }
 .flex-child {
     margin: 20px;
@@ -163,21 +165,21 @@ position: absolute;
 } 
 #map {
     height: 400px;
+    margin: 20px;
         border: 2px solid #326382;
 }
 
 
 /*KONTAKTFORMULAR STYLE*/
 #contact {
-width: 50%;
-margin:2em auto;
-background: white;
+width: 80%;
+background: ;
 position: relative;
 }
 #contact::after {
 display: block;
 height: 30px;
-width: 90%;
+width: 80%;
 left: 5%;
 bottom: 0;
 position: absolute;
@@ -188,13 +190,13 @@ z-index: -1;
 }
 #contact h1 {
 background: #C91335;
-font-size: 1.75em;
-padding: 0.6em 0 0.6em 0.4em;
+padding: 0.4em 0 0.1em 0.4em;
 color: white;
 text-shadow: 0 0.06em 0 #424242;
 position: relative;
 }
 .contactbutton {
+    margin-top: -0px; 
 background: #C91335;
 -webkit-box-shadow: 1px 1px 0 0 #832032,2px 2px 0 0 #832032,3px 3px 0 0 #832032;
 box-shadow: 1px 1px 0 0 #832032,2px 2px 0 0 #832032,3px 3px 0 0 #832032;
@@ -393,11 +395,12 @@ font-size: 0.8em;
 }
 }
 #subject {
-    height: auto;
+    height: 60px;;
     width: 99%;
 }
 .kontakttekst {
-    padding: 9px;
+    padding: 2px;
+
 }
 /*KONTAKTFORMULAR STYLE SLUT*/
 .askus {
