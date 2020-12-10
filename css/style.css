@@ -400,3 +400,12 @@ font-size: 0.8em;
     padding: 9px;
 }
 /*KONTAKTFORMULAR STYLE SLUT*/
+.askus {
+        background-color: #c91335;
+    width: 150px;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'ITC Kabel Std Bold';
+}
