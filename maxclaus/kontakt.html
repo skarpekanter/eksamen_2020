@@ -7,6 +7,8 @@
   <meta name="author" content="Simon & Niclas">
   <meta name ="keywords" content="tæpper, gulv, service, levering, montering,">
   <link rel="stylesheet" href="css/style.css">
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
   <title>Max og Claus - Tæppemontering</title>
 </head>
     
@@ -24,12 +26,41 @@
 <!--TOP LOGO-->
     <img src="img/logo.png" alt="max&clauslogo" class="biglogo" width="400" height="200">
 <!--TOP LOGO SLUT-->
+    
+<div class="flex-container">
+
+  <div class="flex-child">
+    <h2>Kontaktoplysninger</h2>
+<p>Max & Claus -Tæppemontering <br> Helgolandsgade 9<br> 6700 Esbjerg</p>
+      <p><img src="img/tlfikon.png" height="20"><br>55 99 50 50</p>  
+      <h3>Åbningstider:</h3>
+<p>
+    Mandag: 10:00-17:30<br>
+    Tirsdag: 10:00-17:30<br>
+    Onsdag: 10:00-17:30<br>
+    Torsdag: 10:00-17:30<br>
+    Fredag: 10:00-18:00<br>
+    Lørdag: 10:00-13:00<br>
+    Søndag: Lukket
+</p>      
+
+
+
+
+      
+  </div>
+  
+  <div class="flex-child">
+    <div id="map"></div>
+  </div>
+  
+</div>  
 
 <!-- KONTAKT FORMULAR -->
 <section id="contact">
 	<div class="sectionheader">	<h1>Kontaktformular</h1></div>
 	<article>
-	<p class="kontakttekst">Har du et ønske om at vi skal kontakte dig eller har du et konkret renoveringsprojekt som du ønsker sparring eller rådgivning? Vi er klar til hjælpe. Hvis du anvender kontakt formularen vil vi kontakte dig ved næste kommende lejlighed. </p>
+	<p class="kontakttekst">Har du et ønske om at vi skal kontakte dig eller har du et konkret renoveringsprojekt som du ønsker sparring eller rådgivning? <br><br> Tryk på Mail-ikonet for åbne kontaktformularen </p>
 		
 			<label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
 	

@@ -148,6 +148,25 @@ position: absolute;
 }
 /*FORSIDE CONTENT SLUT*/
 
+
+/*MAP & KOTANKT TEXT STYLE*/
+.flex-container {
+    display: flex;
+    text-align: center;
+}
+.flex-child {
+    margin: 20px;
+    flex: 1;
+    border: 2px solid #326382;
+}  
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+#map {
+    height: 400px;
+}
+
+
 /*KONTAKTFORMULAR STYLE*/
 #contact {
 width: 50%;
@@ -381,4 +400,3 @@ font-size: 0.8em;
     padding: 9px;
 }
 /*KONTAKTFORMULAR STYLE SLUT*/
-
