@@ -5,6 +5,28 @@
 
 console.log('JavaScript from js/js.js: up and running!');
 
+var d = new Date();
+    var n = d.getDay();
+    var now = d.getHours() + "." + d.getMinutes();
+    var weekdays = [
+        ["Sunday"],// we are closed, sorry!
+        ["Monday", 10.00, 17.30,],
+        ["Tuesday", 10.00, 17.30],
+        ["Wednesday", 10.00, 17.30],
+        ["Thursday", 10.00, 17.30],
+        ["Friday", 10.00, 18.00],
+        ["Saturday", 10.00, 13.00] 
+    ];
+    var day = weekdays[n];
+
+
+    if (now > day[1] && now < day[2]) {
+        document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='green'>" + ' ' + 'åben' + "</em>" + "</p>";
+    }
+     else {
+         document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='red'>" + ' ' + 'lukket' + "</em>" + "</p>";
+    }
+
 //MAPBOX API
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2thcnBla2FudGVyIiwiYSI6ImNrZnFrZWR2cjE1OXEyeW9lazVmZ2lidGgifQ.rHA3DQA4-1UVos68yT2JxA';
 

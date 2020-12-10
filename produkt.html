@@ -26,9 +26,9 @@
 <!--TOP LOGO SLUT-->    
 
 <div class="produktcontainer">    
-<h1>Prisen afhænger af dig og dit næste projekt...</h1>
+<h1>Prisen afhænger af dig og dit næste projekt</h1>
     <p class="tilbud">Det kan være svært at give et endegyldigt svar på prisen for dit næste projekt. Vi har samlet vores aktuelle tilbud i vores ugeavis, som ses på denne side. Vi mener dog at tæpper skal ses, føles og testes inden du træffer et valg.<br><br> Derfor byder vi dig altid velkommen i vores butik.</p>
-<img class="tilbudimg" src="img/ugeavis.png" width="80%;">
+<img class="tilbudimg" src="img/ugeavis.png" width="80%;" alt="esbjergugeavis">
     <h2>Vi er altid klar til at hjælpe - og det er gratis at spørge</h2>
 </div>
 
@@ -37,34 +37,14 @@
     <a href="kontakt.html">
           <button class="askus">Kontakt Os</button>     
         </a>
-      <div id="field_name"></div>
-    <script>
-        var d = new Date();
-    var n = d.getDay();
-    var now = d.getHours() + "." + d.getMinutes();
-    var weekdays = [
-        ["Sunday"],// we are closed, sorry!
-        ["Monday", 10.00, 17.30,],
-        ["Tuesday", 10.00, 17.30],
-        ["Wednesday", 10.00, 17.30],
-        ["Thursday", 10.00, 17.30],
-        ["Friday", 10.00, 18.00],
-        ["Saturday", 10.00, 13.00] 
-    ];
-    var day = weekdays[n];
-
-
-    if (now > day[1] && now < day[2]) {
-        document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='green'>" + ' ' + 'åben' + "</em>" + "</p>";
-    }
-     else {
-         document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='red'>" + ' ' + 'lukket' + "</em>" + "</p>";
-    }
-        </script>
 </div>
 <footer>
     <p><img src="img/tlfikon.png" alt="telefonikon" width="14"> 55 99 50 50</p>
   <p><img src="img/mailikon.png" alt="mailikon" width="20"><a href="mailto:#">kontakt@example.com</a></p>
-</footer>      
+     <div id="field_name">sdf</div>
+</footer>
+
+  <!-- scripts -->
+  <script src="js/js.js" type="text/jscript"></script>
 </body>
 </html>
