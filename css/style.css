@@ -84,12 +84,23 @@ max-width: 100%;
 
 /*FOOTER STYLE*/
 footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
    background-color: #326382;
    color: white;
+    display: inline-block;
 }
+
+/*STYLE TIL ÅBEN/LUKKET*/
+.red {
+    color: red;
+}
+.green{
+    color: green;
+}
+/*STYLE TIL ÅBEN/LUKKET*/
+
 /*FOOTER STYLE SLUT*/
 
 
@@ -149,6 +160,34 @@ position: absolute;
 }
 /*FORSIDE CONTENT SLUT*/
 
+
+/*STYLE TIL GULVMONTERING*/
+.askus {
+    background-color: #c91335;
+    text-align: center;
+    width: 150px;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'ITC Kabel Std Bold';
+}
+.bundknap {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.produktcontainer {
+    text-align: center;
+}
+.tilbudimg {
+    border-radius: 4px;
+}
+.tilbud {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*STYLE TIL GULVMONTERING SLUT*/
 
 /*MAP & TEXT STYLE*/
 .flex-container {
@@ -361,6 +400,7 @@ outline: none;
 text-align: center;
 }
 .submit_wrapper input {
+font-family: 'ITC Kabel Std Medium';
 text-align: center;
 display: inline-block;
 width: 40%;
@@ -372,30 +412,13 @@ background: #C91335;
 color: white;
 font-size: 1em;
 border: none;
--webkit-box-shadow: 1px 1px 0 0 #C91335,2px 2px 0 0 #C91335,3px 3px 0 0 #C91335;
-box-shadow: 1px 1px 0 0 #C91335,2px 2px 0 0 #C91335,3px 3px 0 0 #C91335;
+
 -webkit-appearance: none;
   -webkit-transition: all 250ms ease;
 -moz-transition: all 250ms ease;
 -ms-transition: all 250ms ease;
 -o-transition: all 250ms ease;
 transition: all 250ms ease;
-}
-.submit_wrapper input:hover {
--webkit-box-shadow: 1px 1px 0 0 #C91335,0px 0px 0 0 #C91335,0px 0px 0 0 #C91335;
-box-shadow: 1px 1px 0 0 #C91335,0px 0px 0 0 #C91335,0px 0px 0 0 #C91335;
-margin-top: 22px;
-margin-left: 2px;
-margin-bottom: 0px;
-}
-@media (max-width: 500px){
-#contact {
-width: 100%;
-}
-  .input_wrapper label {
-line-height: 3.5em;
-font-size: 0.8em;
-}
 }
 #subject {
     height: 60px;;
@@ -408,45 +431,6 @@ font-size: 0.8em;
 /*KONTAKTFORMULAR STYLE SLUT*/
 
 
-.askus {
-    background-color: #c91335;
-    width: 150px;
-    border-style: none;
-    padding: 10px;
-    color: white;
-    font-size: 15px;
-    font-family: 'ITC Kabel Std Bold';
-}
-
-.red {
-    color: red;
-}
-.green
-{
-    color: green;
-}
-
-.bundknap {
-    text-align: center;
-}
-
-
-
-.produktcontainer {
-    text-align: center;
-}
-
-
-
-.tilbudimg {
-    border-radius: 4px;
-}
-
-.tilbud {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 .butikimg {
     opacity: 70%
@@ -454,4 +438,40 @@ font-size: 0.8em;
 
 .meetoverskrift {
     text-align: center;
+}
+
+.grid-kasse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+}
+
+
+
+.img-child {
+    text-align: right;
+}
+
+
+
+.grid-child {
+    text-align: center;
+}
+
+
+.left{
+    margin-left: 10px;
+text-align:left;
+float:left;
+}
+.right{
+    margin-right: 10px;
+float:right;
+text-align:right;
+}
+.centered{
+text-align:center;
+}
+.footerlink {
+    color: white;
 }
