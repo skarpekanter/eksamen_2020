@@ -2,6 +2,11 @@
  * file: style.css
  * purpose: styles, animation etc
  **/
+
+/*FontAwesome import*/ 
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"); 
+
+
 /* CUSTOM FONTS*/
     @font-face {
     font-family: 'ITC Kabel Std Book';
@@ -90,36 +95,91 @@ max-width: 100%;
 }
 /*TOP LOGO SLUT*/
 
-/*FOOTER STYLE*/
+/*FOOTER STYLE 
 
 footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-top: solid 20px;
+    border-top-color:#c91335;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
-   background-color: #326382;
-   color: white;
+    background-color:#8e8e8e ;
+   color: #fff;
     display: inline-block;
+    
 }
 .left{
-    margin-left: 10px;
+    margin-left: 20%;
 text-align:left;
 float:left;
 }
 .right{
-    margin-right: 10px;
+    margin-right: 20%;
 float:right;
 text-align:right;
 }
 .centered{
 text-align:center;
 }
-.footerlink {
-    color: white;
+
+
+*/
+
+.contact .fa:before {
+  display: inline-block;
+  opacity: 0.7;
 }
+
+.contact li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 3em;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.cont {
+  text-align: center;
+  background-color: #5c6b87;
+    color:#fff;
+    border-top:solid 8px;
+    border-color: #c91335;
+    font-size: 12px
+}
+
+.overskriftfooter {
+    color:#fff;
+}
+
+.footerlogo {
+    margin-top: 2%;
+}
+
+.footerlink{
+    color:white;
+}
+
+.right{
+    padding: 15px 0px;
+}
+
+
+
+
 
 /*STYLE TIL ÅBEN/LUKKET*/
 .red {
-    color: red;
+    color: #c91335;
+    text-align: center;
 }
 .green{
     color: lightgreen;
@@ -174,7 +234,8 @@ position: absolute;
     font-size: 20px;
 }
 .forsideknap {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top: 25px;
     background-color: #c91335;
     width: 150px;
     border-style: none;
@@ -472,7 +533,7 @@ transition: all 250ms ease;
 }
 .butikinfo {
     margin-left: 15%;
-margin-right: 15%;
+    margin-right: 15%;
     text-align: center;
 }
 #apnd div {
@@ -483,8 +544,9 @@ margin-right: 15%;
         float: left; 
 }
 #apnd {
-    margin-left: 7%;
+    margin-left:25%;
     margin-bottom: 25%;
+    margin-top: 5%;
 }
 .person {
     height: 100%;
@@ -493,3 +555,5 @@ h3 {
     text-align: center;
 }
 /*BUTIK SIDE STYLES SLUT*/
+
+
