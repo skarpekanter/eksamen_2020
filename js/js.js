@@ -21,7 +21,7 @@ var d = new Date();
 
 
     if (now > day[1] && now < day[2]) {
-        document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='green'>" + ' ' + 'åben' + "</em>" + "</p>";
+        document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='green'>" + ' ' + 'åbent' + "</em>" + "</p>";
     }
      else {
          document.getElementById('field_name').innerHTML="<p>" + 'Vi har' + "<em class='red'>" + ' ' + 'lukket' + "</em>" + "</p>";

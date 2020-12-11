@@ -35,6 +35,7 @@
     }
 /* CUSTOM FONTS SLUT*/
 
+/* OVERORNDET STYLES*/
 html, body {
     color: #3e3e3e;
     height: 100%;
@@ -42,6 +43,10 @@ html, body {
      background-image: linear-gradient(to right, #ffffff, #d6d6d6, #ffffff);
     font-family: 'ITC Kabel Std Medium';
 }
+/* OVERORNDET STYLES*/
+
+
+
 /*HER ER STYLE TIL NAVBAR*/
 ul {
   list-style-type: none;
@@ -67,7 +72,10 @@ li a {
     background-color: #c91335;
     color: white;
 }
-li a:hover:not(.active) {background-color: #326382; color: white;}
+li a:hover:not(.active) {
+background-color: #326382; 
+color: white;
+}
 /*HER SLUTTER STYLE TIL NAVBAR*/
 
 /*TOP LOGO IMG STYLE*/
@@ -83,6 +91,7 @@ max-width: 100%;
 /*TOP LOGO SLUT*/
 
 /*FOOTER STYLE*/
+
 footer {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -91,13 +100,29 @@ footer {
    color: white;
     display: inline-block;
 }
+.left{
+    margin-left: 10px;
+text-align:left;
+float:left;
+}
+.right{
+    margin-right: 10px;
+float:right;
+text-align:right;
+}
+.centered{
+text-align:center;
+}
+.footerlink {
+    color: white;
+}
 
 /*STYLE TIL ÅBEN/LUKKET*/
 .red {
     color: red;
 }
 .green{
-    color: green;
+    color: lightgreen;
 }
 /*STYLE TIL ÅBEN/LUKKET*/
 
@@ -158,6 +183,7 @@ position: absolute;
     font-size: 15px;
     font-family: 'ITC Kabel Std Bold';
 }
+
 /*FORSIDE CONTENT SLUT*/
 
 
@@ -431,9 +457,9 @@ transition: all 250ms ease;
 /*KONTAKTFORMULAR STYLE SLUT*/
 
 
-
+/*DEN SIDSTE SIDE, SOM MANGLER*/
 .butikimg {
-    opacity: 70%
+    opacity: 70%;
 }
 
 .meetoverskrift {
@@ -447,31 +473,12 @@ transition: all 250ms ease;
 }
 
 
-
 .img-child {
     text-align: right;
 }
 
 
-
 .grid-child {
     text-align: center;
 }
-
-
-.left{
-    margin-left: 10px;
-text-align:left;
-float:left;
-}
-.right{
-    margin-right: 10px;
-float:right;
-text-align:right;
-}
-.centered{
-text-align:center;
-}
-.footerlink {
-    color: white;
-}
+/*DEN SIDSTE SIDE, SOM MANGLER*/
