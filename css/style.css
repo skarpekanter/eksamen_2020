@@ -460,6 +460,7 @@ transition: all 250ms ease;
 /*DEN SIDSTE SIDE, SOM MANGLER*/
 .butikimg {
     opacity: 70%;
+    border-bottom: solid;
 }
 
 .meetoverskrift {
@@ -482,3 +483,9 @@ transition: all 250ms ease;
     text-align: center;
 }
 /*DEN SIDSTE SIDE, SOM MANGLER*/
+
+.butikinfo {
+    margin-left: 15%;
+margin-right: 15%;
+    text-align: center;
+}
