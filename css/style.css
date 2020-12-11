@@ -489,3 +489,23 @@ transition: all 250ms ease;
 margin-right: 15%;
     text-align: center;
 }
+
+
+
+
+#apnd div {
+    height: 200px; 
+    padding: 10px;
+        width: 170px;  
+    margin-bottom: 10px;
+        float: left; 
+}
+#apnd {
+    margin-left: 13%;
+    margin-bottom: 20%;
+}
+
+.person {
+    height: 100%;
+    border-radius: 30px;
+}
