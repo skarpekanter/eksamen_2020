@@ -42,7 +42,7 @@ zoom: 15, // starting zoom
 //Markør Ikon på MAP
     map.on('load', function () {
         map.loadImage(
-            "/img/punkt.png",
+            "/img/kortmarker.png",
             function (error, image) {
                 if (error) throw error;
                 map.addImage('marker', image);
