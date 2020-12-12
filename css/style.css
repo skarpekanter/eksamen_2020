@@ -1,11 +1,5 @@
-/**
- * file: style.css
- * purpose: styles, animation etc
- **/
-
 /*FontAwesome import*/ 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"); 
-
 
 /* CUSTOM FONTS*/
     @font-face {
@@ -55,7 +49,7 @@ html, body {
 /*HER ER STYLE TIL NAVBAR*/
 ul {
   list-style-type: none;
-  margin: 10;
+  margin: 10px;
   padding: 0;
   overflow: hidden;
     text-align: center;
@@ -96,29 +90,24 @@ max-width: 100%;
 /*TOP LOGO SLUT*/
 
 /*FOOTER STYLE */
-
 .contact .fa:before {
   display: inline-block;
   opacity: 0.7;
 }
-
 .contact li {
   display: inline-block;
   list-style-type: none;
   margin: 0 3em;
   text-align: center;
 }
-
 .contact p {
   text-align: center;
 }
-
 .contact {
   display: inline-block;
   margin: 0 auto;
   padding-left: 0;
 }
-
 .cont {
   text-align: center;
   background-color: #5c6b87;
@@ -127,33 +116,23 @@ max-width: 100%;
     border-color: #c91335;
     font-size: 12px
 }
-
 .overskriftfooter {
     color:#fff;
 }
-
 .footerlogo {
     margin-top: 2%;
 }
-
 .footerlink{
     color:white;
 }
-
 .right{
     padding: 15px 0px;
 }
 
-
-
-
-
 /*STYLE TIL ÅBEN/LUKKET*/
-
 #field_name {
     font-size: 18px;
 }
-
 .red {
     color: #c91335;
     text-align: center;
@@ -199,6 +178,7 @@ position: absolute;
 }
 /*FORSIDE SIDE BANNER SLUT*/
 
+/*CALL TO ACTION FORSIDE STYLE*/
 .komtekst {
     margin-top: 30px;
         font-family: 'ITC Kabel Std Medium';
@@ -221,11 +201,12 @@ position: absolute;
     font-size: 15px;
     font-family: 'ITC Kabel Std Bold';
 }
+/*CALL TO ACTION FORSIDE STYLE*/
 
 /*FORSIDE CONTENT SLUT*/
 
 
-/*STYLE TIL GULVMONTERING*/
+/*STYLE TIL GULVMONTERING SIDE*/
 .askus {
     background-color: #c91335;
     text-align: center;
@@ -251,7 +232,58 @@ position: absolute;
     margin-left: 10%;
     margin-right: 10%;
 }
-/*STYLE TIL GULVMONTERING SLUT*/
+/*STYLE TIL GULVMONTERING SIDE SLUT*/
+
+/*OM OS SIDE STYLES*/
+.butikimg {
+    opacity: 70%;
+    border-bottom: solid;
+}
+.meetoverskrift {
+    text-align: center;
+}
+.grid-kasse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+}
+.butikinfo {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+/*KASSER MED PERSONALE*/
+#apnd div {
+    text-align: center;
+    height: 100px; 
+    padding: 10px;
+        width: 150px;  
+    margin-bottom: 10px;
+        float: left; 
+}
+#apnd {
+    margin-bottom: 15%;
+}
+.person {
+    height: 100%;
+}
+/*KASSER MED PERSONALE*/
+
+h3 {
+    text-align: center;
+}
+.indrediv {
+  display: table;
+  margin: 0 auto;
+}
+.ydrediv {
+  width:100%
+}
+/*OMS OS SIDE STYLES SLUT*/
+
+
+/*KONTAKTSIDE STYLE/
 
 /*MAP & TEXT STYLE*/
 .flex-container {
@@ -280,7 +312,6 @@ position: absolute;
 /*KONTAKT SIDE STYLE*/
 #contact {
 width: 80%;
-background: ;
 position: relative;
 }
 #contact::after {
@@ -295,7 +326,7 @@ box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
 border-radius: 100%;
 z-index: -1;
 }
-#contact h1 {
+#contact h2 {
 background: #C91335;
 padding: 0.4em 0 0.1em 0.4em;
 color: white;
@@ -391,6 +422,8 @@ padding: 1em;
 transition: all 250ms ease;
 color: #5E5E5E;
 }
+
+/*CSS SLIDE BOKSE ANIMATION*/
 .input_wrapper input[type="text"] {
 margin-top: 1em;
 display: block;
@@ -436,6 +469,8 @@ transition: all 250ms ease;
 .input_wrapper input[type="text"]:focus + label {
 left: 85%;
 }
+/*CSS SLIDE BOKSE ANIMATION*/
+
 .textarea_wrapper textarea {
 margin-top: 20px;
 display: block;
@@ -494,54 +529,4 @@ transition: all 250ms ease;
 }
 /*KONTAKTFORMULAR STYLE SLUT*/
 
-
-/*BUTIK SIDE STYLES*/
-.butikimg {
-    opacity: 70%;
-    border-bottom: solid;
-}
-.meetoverskrift {
-    text-align: center;
-}
-.grid-kasse {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 100px;
-}
-.butikinfo {
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
-}
-#apnd div {
-    text-align: center;
-    height: 100px; 
-    padding: 10px;
-        width: 150px;  
-    margin-bottom: 10px;
-        float: left; 
-}
-#apnd {
-    margin-left: 10;
-    margin-bottom: 15%;
-}
-.person {
-    height: 100%;
-}
-h3 {
-    text-align: center;
-}
-
-.indrediv {
-  display: table;
-  margin: 0 auto;
-}
-
-.ydrediv {
-  width:100%
-}
-
-/*BUTIK SIDE STYLES SLUT*/
-
-
-
+/*KONTAKTSIDE STYLE SLUT/
