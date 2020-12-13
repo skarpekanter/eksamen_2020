@@ -344,6 +344,8 @@ width: 100%;
 height: 50px;
 margin-bottom: 2px;
 cursor: pointer;
+font-size: 30px;
+
 }
 .contactbutton:hover {
 -webkit-box-shadow: 1px 1px 0 0 #832032,0px 0px 0 0 #832032,0px 0px 0 0 #832032;
@@ -527,6 +529,14 @@ transition: all 250ms ease;
     padding: 2px;
 
 }
+
+.kontaktinfotekst {
+    font-size:35px;
+    padding: 8px;
+    color: #fff;
+}
 /*KONTAKTFORMULAR STYLE SLUT*/
 
-/*KONTAKTSIDE STYLE SLUT/
+/*KONTAKTSIDE STYLE SLUT*/
+
+
